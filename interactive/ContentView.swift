@@ -31,7 +31,7 @@ struct ContentView: View {
                 textTitle = "Welcome, \(name)!"
             }
             .padding(.top, 41.0)
-            .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
+            .font(.largeTitle)
             .buttonStyle(.borderedProminent)
             .tint(Color(hue: 0.873, saturation: 0.557, brightness: 0.944))
                 
